@@ -47,6 +47,7 @@ public class CreateContactTest
 	action.moveToElement(ele).perform();
 	WebElement logout = driver.findElement(By.xpath("//a[text()=\"Sign Out\"]"));
 	logout.click();
+	driver.quit();
 }
 
 }
